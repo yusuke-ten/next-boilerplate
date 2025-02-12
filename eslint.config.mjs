@@ -12,7 +12,7 @@ export default tseslint.config(
     files: ['*.js', '*.jsx', '*.ts', '*.tsx'],
   },
   {
-    ignores: ['**/next-env.d.ts', '**/.next/', 'prettier.config.js'],
+    ignores: ['**/next-env.d.ts', '**/.next/', 'prettier.config.js', 'plopfile.js'],
     name: 'Ignore',
   },
   {
