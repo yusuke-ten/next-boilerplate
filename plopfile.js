@@ -16,7 +16,7 @@ module.exports = function (plop) {
     ],
     actions: function (data) {
       const actions = []
-      let path = 'src/components'
+      let path = 'src/components/{{kebabCase componentName}}'
 
       actions.push(
         {
